@@ -5,3 +5,7 @@
 #nav {
 	float: left;
 }
+
+.games {
+	clear: both;
+}

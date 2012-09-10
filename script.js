@@ -6,20 +6,9 @@ $(document).ready(function() {
 	$("#screenshots").carouFredSel({
 		items: {
 			visible: 3,
-			start: "random",
-			width: 400,
-
+			start: "random"
 		},
-		width: 360,
 		auto: false,
-		prev: {
-			button: "#screenshots_prev",
-			key: "left"
-		},
-		next: {
-			button: "#screenshots_next",
-			key: "right"
-		},
 		pagination: "#screenshots_pag"
 	});
 });

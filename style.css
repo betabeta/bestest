@@ -61,11 +61,6 @@ a:visited {
 	font-size: 35px;
 }
 
-#body #screenshots {
-	text-align: center;
-	clear: both;
-}
-
 #body .games .game {
 	float: left;
 	margin-right: 50px;
@@ -73,5 +68,19 @@ a:visited {
 }
 
 #body .game-image {
+	float: left;
+}
+
+#body .carousel {
+	padding: 15px 0 15px 40px;
+	position: relative;
+}
+
+#body .carousel img {
+	border: 1px solid #ccc;
+	background-color: white;
+	padding: 9px;
+	margin: 7px;
+	display: block;
 	float: left;
 }

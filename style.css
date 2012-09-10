@@ -1,7 +1,77 @@
-.header img {
+body {
+	padding: 10px 0 10px 0;
+	background-color: #63A69F;
+	font-family: Georgia, serif;
+	color: #31524E;
+}
+
+a {
+	color: #333745;
+	text-decoration: none; 
+	border-bottom: 1px dotted;
+}
+
+a:visited {
+	color: #333745;
+}
+
+#header {
+	min-width: 520px;
+	margin: 0 auto 30px auto;
+	padding: 10px 10%;
+	overflow: auto;
+
+	/*-webkit-box-shadow: 1px 0px 5px rgba(5, 26, 0, 1);
+	-moz-box-shadow:    1px 0px 5px rgba(5, 26, 0, 1);
+	box-shadow:         1px 0px 5px rgba(5, 26, 0, 1);*/
+}
+
+#header img {
 	float: left;
+	margin-right: 35px;
+}
+
+#header h1 {
+	font-family: 'Playball', cursive;
+	font-size: 5em;
+	margin: 0;
+	color: white;
 }
 
 #nav {
+	margin-top: 10px;
+}
+
+#nav a {
+	border-bottom: none;
+	margin-right: 30px;
+}
+
+#body {
+	background-color: #D8F2F0;
+	padding: 10px 10%;
+	min-width: 520px;
+	overflow: auto;
+
+	margin: auto;
+}
+
+#body .intro {
+	text-align: center;
+	font-size: 35px;
+}
+
+#body #screenshots {
+	text-align: center;
+	clear: both;
+}
+
+#body .games .game {
+	float: left;
+	margin-right: 50px;
+	text-align: center;
+}
+
+#body .game-image {
 	float: left;
 }

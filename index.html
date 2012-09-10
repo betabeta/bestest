@@ -3,12 +3,19 @@
 	<head>
 		<title>Bestest Games</title>
 		<meta charset="utf-8">
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="normalize.css"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+		<script type="text/javascript" language="javascript" src="lib/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="lib/jquery.carouFredSel-5.6.4-packed.js"></script>
+		<script type="text/javascript" language="javascript" src="script.js"></script>
+
 	</head>
 
 	<body>
-		<div class="header">
-			<img src="logo.png">
+		<div id="header">
+			<img src="images/logo3.png">
 			<h1>Bestest Games</h1>
 
 			<div id="nav">
@@ -17,7 +24,24 @@
 				<a href="videogames.html">Video games</a>
 				<a href="boardgames.html">Board games</a>
 				<a href="about.html">About us</a>
-				<a href="contact.html">Contact</a>
+				<a href="mailto:beta@bestest.com">Contact</a>
+			</div>
+		</div>
+
+		<div id="body">
+			<p class="intro">We are a <a href="about.html">company</a> that makes <a href="videogames.html">video games</a> and <a href="boardgames.html">board games</a>.</p>
+			<p class="intro">Here are some of them:</p>
+			<div class="carousel">
+				<div id="screenshots"> 
+					<img src="logo2.jpg">
+					<img src="logo2.jpg">
+					<img src="logo2.jpg">
+					<img src="logo2.jpg">
+				</div>
+				<div class="clearfix"></div>
+				<a class="prev" id="screenshots_prev" href="#"><span>prev</span></a>
+				<a class="next" id="screenshots_next" href="#"><span>next</span></a>
+			    <div class="pagination" id="screenshots_pag"></div>
 			</div>
 		</div>
 

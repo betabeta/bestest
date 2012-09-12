@@ -1,18 +1,19 @@
 body {
 	padding: 10px 0 10px 0;
-	background-color: #63A69F;
+	/*background-color: #FFFFFF;*/
+	background-image: url(http://i.imgur.com/IfqrR.png);
 	font-family: Georgia, serif;
-	color: #31524E;
+	color: #DC5B21;
 }
 
 a {
-	color: #333745;
+	color: #DC5B21;
 	text-decoration: none; 
 	border-bottom: 1px dotted;
 }
 
 a:visited {
-	color: #333745;
+	color: #DC5B21;
 }
 
 #header {
@@ -35,20 +36,23 @@ a:visited {
 	font-family: 'Playball', cursive;
 	font-size: 5em;
 	margin: 0;
-	color: white;
+	color: #009097;
 }
 
 #nav {
+	background-color: #009097;
 	margin-top: 10px;
 }
 
 #nav a {
 	border-bottom: none;
 	margin-right: 30px;
+	color: #E6DDC1;
 }
 
 #body {
-	background-color: #D8F2F0;
+	/*background-color: #F8F8C6;*/
+	background-image: url(http://i.imgur.com/IfqrR.png);
 	padding: 10px 10%;
 	min-width: 520px;
 	overflow: auto;

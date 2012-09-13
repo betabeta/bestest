@@ -5,10 +5,14 @@
 $(document).ready(function() {
 	$("#screenshots").carouFredSel({
 		items: {
-			visible: 3,
-			start: "random"
+			visible: 2,
+			start: "random",
+			width: 415
 		},
-		auto: false,
+		scroll: {
+		  duration: 1000
+		},
+		auto: true,
 		pagination: "#screenshots_pag"
 	});
 });

@@ -76,23 +76,53 @@ a:visited {
 #body .games .game {
 	float: left;
 	margin-right: 50px;
+	margin-bottom: 40px;
 	text-align: center;
+}
+
+#body .framed-image {
+  border: 1px solid #ccc;
+	background-color: white;
+	padding: 9px;
 }
 
 #body .game-image {
 	float: left;
+	margin-right: 20px;
 }
 
 #body .carousel {
-	padding: 15px 0 15px 40px;
+	padding: 15px 0 15px;
 	position: relative;
+	width: 830px;
+	margin: auto;
 }
 
 #body .carousel img {
-	border: 1px solid #ccc;
-	background-color: white;
-	padding: 9px;
 	margin: 7px;
 	display: block;
 	float: left;
 }
+
+/* Paginacija preuzeta s http://stackoverflow.com/questions/8559875/how-to-make-paginations-circle-of-slider-using-css-only */
+
+.pagination {
+  text-align: center;
+}
+
+.pagination a {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+  text-indent: -10000px;
+  background: #999;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  box-shadow: inset 1px 1px 1px rgba(0, 0 ,0, 0.4);
+}
+
+.pagination a.selected {
+  background: #B0261F;
+}​

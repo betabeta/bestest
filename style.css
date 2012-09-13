@@ -1,24 +1,23 @@
 body {
 	padding: 10px 0 10px 0;
-	/*background-color: #FFFFFF;*/
-	background-image: url(http://i.imgur.com/IfqrR.png);
+	background-color: #F8F8C6;
 	font-family: Georgia, serif;
-	color: #DC5B21;
+	color: #F8F8C6;
 }
 
 a {
-	color: #DC5B21;
+	color: #F8F8C6;
 	text-decoration: none; 
 	border-bottom: 1px dotted;
 }
 
 a:visited {
-	color: #DC5B21;
+	color: #F8F8C6;
 }
 
 #header {
 	min-width: 520px;
-	margin: 0 auto 30px auto;
+	margin: 0 auto 10px auto;
 	padding: 10px 10%;
 	overflow: auto;
 
@@ -36,23 +35,33 @@ a:visited {
 	font-family: 'Playball', cursive;
 	font-size: 5em;
 	margin: 0;
-	color: #009097;
+	color: #B0261F;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 #nav {
-	background-color: #009097;
+	background-color: #F8F8C6;
 	margin-top: 10px;
 }
 
 #nav a {
 	border-bottom: none;
 	margin-right: 30px;
-	color: #E6DDC1;
+	color: #465C3A;
+}
+
+#nav li {
+	display: block;
+	float: left;
+	line-height: 20px;
+}
+
+#nav li:hover {
+	line-height: 10px;
 }
 
 #body {
-	/*background-color: #F8F8C6;*/
-	background-image: url(http://i.imgur.com/IfqrR.png);
+	background-color: #310B0B;
 	padding: 10px 10%;
 	min-width: 520px;
 	overflow: auto;
